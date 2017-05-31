@@ -1,9 +1,9 @@
 public class btree {
     public static void main(String[] args) {
         System.out.println("hello world!");
-        Node root = new Node();
-        BTree tree = new BTree();
-        System.out.println(hi.a);
+        Node root = new Node(4);
+        System.out.println(root.value);
+
     }
 }
 
@@ -15,16 +15,3 @@ class Node {
 }
 
 
-abstract public class Tree {
-    Node root;
-    Tree() {
-        root = new Node();
-    }
-    void add(int a) {
-        Node temp = new Node(a);
-    }
-}
-
-class BTree extends Tree {
-
-}
